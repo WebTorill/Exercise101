@@ -1,2 +1,2 @@
-# Exercise101
-The first exercise in PWA1 - about Service Workers
+# Exercise301
+The first tag-along exercise in PWA1 about Service Workers
