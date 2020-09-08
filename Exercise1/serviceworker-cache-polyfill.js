@@ -47,8 +47,6 @@ if (!Cache.prototype.addAll) {
         })
       );
     }).then(function(responses) {
-      // TODO: check that requests don't overwrite one another
-      // (don't think this is possible to polyfill due to opaque responses)
       return Promise.all(
         responses.map(function(response, i) {
           return cache.put(requests[i], response);
